@@ -18,7 +18,7 @@ public class Test02 {
         Action.click(LoginPage.submit,"submit");
         Action.click(LoginPage.wodedingdan,"wodedingdan");
         Action.click(LoginPage.wodedingdan,"wodedingdan");
-        S
+
         SeleniumDrivers.closed();
     }
 }

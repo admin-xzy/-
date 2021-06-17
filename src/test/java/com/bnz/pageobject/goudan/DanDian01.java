@@ -13,18 +13,18 @@ public class DanDian01 {
 
     WebDriver driver;
 
-    @BeforeMethod
+    //@BeforeMethod
     public void openChrome(){
         System.setProperty("webdriver.chrome.driver","D:\\BrowserPath\\chromedriver.exe");
         driver = new ChromeDriver();
     }
-    @AfterMethod
+    //@AfterMethod
     public void closeChrome() throws InterruptedException {
         Thread.sleep(3000);
         driver.quit();
     }
 
-    @Test
+    //@Test
     public void shop() throws InterruptedException {
         driver.get("http://localhost:81/general/ERP/LOGIN/");
 
