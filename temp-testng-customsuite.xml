@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="Maven_goudan">
+    <classes>
+      <class name="com.bnz.pageobject.goudan.DanDian01">
+       
+      </class> <!-- com.bnz.pageobject.goudan.DanDian01 -->
+    </classes>
+  </test> <!-- Maven_goudan -->
+</suite> <!-- Default Suite -->
